@@ -7,8 +7,12 @@ using namespace std;
 class Car
 {
 public:
+	// Constructors
 	Car();
 	Car(string _brandName, string _color, double _price);
+
+	// Destructor
+	~Car();
 
 	void GetCarInformation();
 	void SetCarBrandName(string _brandName);

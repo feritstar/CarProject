@@ -14,6 +14,12 @@ Car::Car(string _brandName, string _color, double _price)
 	price = _price;
 }
 
+// Destructor
+Car::~Car()
+{
+	cout << brandName << ", Destructor is called!" << endl;
+}
+
 void Car::GetCarInformation()
 {
 	cout << brandName << ", " << color << ", " << price << "$" << endl;

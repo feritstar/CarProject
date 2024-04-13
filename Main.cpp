@@ -42,6 +42,8 @@ int main()
 	thirdCar->GetCarInformation();
 	myCar2.GetCarInformation();
 
+	delete thirdCar;
+
 	cout << endl;
 	return 0;
 }
