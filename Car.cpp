@@ -12,18 +12,22 @@ Car::Car(string _brandName, string _color, double _price, string _chasisType)
 	brandName = _brandName;
 	color = _color;
 	price = _price;
-	chasisType = new string(_chasisType);
+	pChasisType = new string(_chasisType);
 }
 
 // Destructor
+// Main of destructor is, deleting the pointers which are created inside classes.
+// The reason of doing that is preventing memory leaks after destroying class object.
 Car::~Car()
 {
 	cout << brandName << ", Destructor is called!" << endl;
+	delete pChasisType;
+	//cout << pChasisType << endl; // we can see that created pointer are destroyed.
 }
 
 void Car::GetCarInformation()
 {
-	cout << brandName << ", " << color << ", " << price << "$ " << *chasisType << endl;
+	cout << brandName << ", " << color << ", " << price << "$ " << *pChasisType << endl;
 }
 
 void Car::SetCarBrandName(string _brandName)

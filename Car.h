@@ -23,7 +23,7 @@ public:
 	string GetCarBrandName();
 	double GetCarPrice();
 
-	string* chasisType;
+	string* pChasisType;
 
 private:
 	string brandName = "";

@@ -42,7 +42,7 @@ int main()
 	thirdCar->GetCarInformation();
 	myCar2.GetCarInformation();
 
-	cout << endl << thirdCar->GetCarBrandName() << " Chasis Type " << *(thirdCar->chasisType) << endl << endl;
+	cout << endl << thirdCar->GetCarBrandName() << " Chasis Type " << *(thirdCar->pChasisType) << endl << endl;
 
 	delete thirdCar;
 
