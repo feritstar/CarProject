@@ -7,11 +7,12 @@ Car::Car()
 }
 
 // Constructor
-Car::Car(string _brandName, string _color, double _price)
+Car::Car(string _brandName, string _color, double _price, string _chasisType)
 {
 	brandName = _brandName;
 	color = _color;
 	price = _price;
+	chasisType = new string(_chasisType);
 }
 
 // Destructor
@@ -22,7 +23,7 @@ Car::~Car()
 
 void Car::GetCarInformation()
 {
-	cout << brandName << ", " << color << ", " << price << "$" << endl;
+	cout << brandName << ", " << color << ", " << price << "$ " << *chasisType << endl;
 }
 
 void Car::SetCarBrandName(string _brandName)

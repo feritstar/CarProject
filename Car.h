@@ -9,7 +9,7 @@ class Car
 public:
 	// Constructors
 	Car();
-	Car(string _brandName, string _color, double _price);
+	Car(string _brandName, string _color, double _price, string _chasisType);
 
 	// Destructor
 	~Car();
@@ -22,6 +22,8 @@ public:
 	string GetCarColor();
 	string GetCarBrandName();
 	double GetCarPrice();
+
+	string* chasisType;
 
 private:
 	string brandName = "";

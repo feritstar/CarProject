@@ -14,10 +14,10 @@ int main()
 	cout << endl;
 
 	// Oop in C++ First Lecture
-	Car myCar("Renault Clio", "White", 5000);
+	Car myCar("Renault Clio", "White", 5000, "Sedan");
 	myCar.GetCarInformation();
 
-	Car myCar2("Mercedes S500", "Black", 15000);
+	Car myCar2("Mercedes S500", "Black", 15000, "Hatchback");
 	myCar2.GetCarInformation();
 
 	myCar.SetCarColor("Green");
@@ -38,9 +38,11 @@ int main()
 	thirdCar->SetCarPrice(70000);
 	thirdCar->GetCarInformation();
 
-	thirdCar = new Car("Audi", "Turquoise", 65000);
+	thirdCar = new Car("Audi", "Turquoise", 65000, "stationWagon");
 	thirdCar->GetCarInformation();
 	myCar2.GetCarInformation();
+
+	cout << endl << thirdCar->GetCarBrandName() << " Chasis Type " << *(thirdCar->chasisType) << endl << endl;
 
 	delete thirdCar;
 
