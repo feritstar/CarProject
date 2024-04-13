@@ -31,3 +31,7 @@
 *.out
 *.app
 /.vs/CarProject/FileContentIndex/8d574712-7863-440c-b9f4-e985f2afe4c0.vsidx
+/.vs/CarProject/v17/Browse.VC.opendb
+/.vs/CarProject/v17/Browse.VC.db-wal
+/.vs/CarProject/v17/Browse.VC.db-shm
+/.vs/CarProject/v17/ipch/AutoPCH/c670f97fbe8450e8/VCTMP18240_163149.MAIN.00000000.ipch
