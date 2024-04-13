@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\c\u002B\u002B\\examples\\CarProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|D:\\c\u002B\u002B\\examples\\CarProject\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|D:\\c\u002B\u002B\\examples\\CarProject\\Car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|solutionrelative:Car.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|D:\\c\u002B\u002B\\examples\\CarProject\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|solutionrelative:Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|D:\\c\u002B\u002B\\examples\\CarProject\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C6F42D7-2B5D-4FEE-8DC2-F78C6BECAD50}|CarProject.vcxproj|D:\\c\u002B\u002B\\examples\\CarProject\\Main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,28 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Car.cpp",
               "DocumentMoniker": "D:\\c\u002B\u002B\\examples\\CarProject\\Car.cpp",
               "RelativeDocumentMoniker": "Car.cpp",
               "ToolTip": "D:\\c\u002B\u002B\\examples\\CarProject\\Car.cpp",
               "RelativeToolTip": "Car.cpp",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwCQAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAuwBkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T18:22:33.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Car.h",
               "DocumentMoniker": "D:\\c\u002B\u002B\\examples\\CarProject\\Car.h",
               "RelativeDocumentMoniker": "Car.h",
@@ -59,15 +59,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "D:\\c\u002B\u002B\\examples\\CarProject\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
               "ToolTip": "D:\\c\u002B\u002B\\examples\\CarProject\\Main.cpp",
               "RelativeToolTip": "Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-12T18:09:14.584Z"
+              "WhenOpened": "2024-04-12T18:09:14.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

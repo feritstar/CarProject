@@ -13,6 +13,7 @@ int main()
 
 	cout << endl;
 
+	// Oop in C++ First Lecture
 	Car myCar("Renault Clio", "White", 5000);
 	myCar.GetCarInformation();
 
@@ -21,6 +22,25 @@ int main()
 
 	myCar.SetCarColor("Green");
 	cout << myCar.GetCarBrandName() << " New Color is: " << myCar.GetCarColor() << endl;
+
+	cout << endl;
+
+	// Oop in C++ Second Lecture
+	Car* thirdCar;
+
+	thirdCar = &myCar;
+	thirdCar->SetCarColor("Red");
+	thirdCar->SetCarPrice(8000);
+	thirdCar->GetCarInformation();
+
+	thirdCar = &myCar2;
+	thirdCar->SetCarColor("Magenta");
+	thirdCar->SetCarPrice(70000);
+	thirdCar->GetCarInformation();
+
+	thirdCar = new Car("Audi", "Turquoise", 65000);
+	thirdCar->GetCarInformation();
+	myCar2.GetCarInformation();
 
 	cout << endl;
 	return 0;
